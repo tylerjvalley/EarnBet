@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+/* Colors */
+
+$dark: #141E29;
+$lightGold: #F5C144;
+$darkGold: #CF9A18;
+$teal: #56E6B8;
+
+
+
+
+.body {
+    background: $dark;
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        color: white;
+    }
+}
+
+.goldButton {
+    background: linear-gradient($lightGold, $darkGold);
+}
+
+.tealButton {
+    background: $teal;
+}
