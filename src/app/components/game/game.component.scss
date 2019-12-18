@@ -1,0 +1,41 @@
+@import "../../../variables";
+
+.cards {
+
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+        margin-bottom: 1em;
+        width: 15rem;
+        height: 11rem;
+        border: none;
+
+        .card-body {
+            padding: 0;
+            background: $dark;
+
+            p {
+                color: gold;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.all-games {
+    position: relative;
+
+    button {
+        margin: 1em auto;
+        padding: .3em 2em;
+        color: $lightGold;
+        border: 1px solid $lightGold;
+        position: absolute;
+        left: 45%;
+    }
+}

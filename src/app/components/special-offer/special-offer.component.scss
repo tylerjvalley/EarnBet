@@ -1,0 +1,26 @@
+.special-offers {
+    margin: 5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .offer {
+        width: 40%;
+        height: 300px;
+    }
+    .left {
+        background-image: url("../../../assets/images/treasure.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+       
+    }
+
+    .right {
+        background-image: url("../../../assets/images/vipchip.jpg");
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+    }
+}

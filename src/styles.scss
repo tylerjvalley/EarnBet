@@ -1,14 +1,9 @@
 /* Colors */
 
-$dark: #141E29;
-$lightGold: #F5C144;
-$darkGold: #CF9A18;
-$teal: #56E6B8;
+@import "variables";
+@import "../node_modules/@fortawesome/fontawesome-svg-core/";
 
-
-
-
-.body {
+body {
     background: $dark;
     width: 100vw;
     height: 100vh;

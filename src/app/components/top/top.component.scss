@@ -1,0 +1,46 @@
+@import "../../../variables";
+
+.navbar {
+    background: $dark;
+}
+.title {
+    color: $lightGold;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: $lightGold;
+  }
+  
+}
+
+.navbar-nav {
+    margin-left: 39.3%;
+}
+
+
+.nav-item {
+    padding: 2px;
+    margin-left: 7px;
+}
+
+.form-control {
+    background: #303943;
+    border: none;
+}
+
+.owner-btn {
+  background: linear-gradient($lightGold, $darkGold);
+}
+
+.sign-in-btn {
+    background: $teal;
+}
+
+
+
+
