@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .special-offers {
     margin: 5em 0;
     display: flex;
@@ -7,6 +9,36 @@
     .offer {
         width: 40%;
         height: 300px;
+
+        p {
+            text-align: center;
+            color: $darkGold;
+            margin-top: .5em;
+        }
+
+        .information {
+            padding-left: 2em;
+            padding-top: 2em;
+
+            h4, h6 {
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                color: $darkGold;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .btn {
+                background: linear-gradient(0.25turn, $lightGold, $darkGold);
+                white-space: nowrap;
+            }
+
+            
+        }
     }
     .left {
         background-image: url("../../../assets/images/treasure.jpg");
@@ -18,7 +50,7 @@
     }
 
     .right {
-        background-image: url("../../../assets/images/vipchip.jpg");
+        background-image: url("../../../assets/images/vipchip2.jpeg");
          background-size: cover;
          background-position: center;
          background-repeat: no-repeat;

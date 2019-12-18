@@ -1,7 +1,13 @@
 @import "../../../variables";
 
 .navbar {
+    max-width: 100%;
     background: $dark;
+
+    .left {
+      display: flex;
+      margin-left: 5%;
+    }
 }
 .title {
     color: $lightGold;
@@ -10,7 +16,7 @@
 .games {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 
   a {
     color: $lightGold;
@@ -24,7 +30,7 @@
 
 
 .nav-item {
-    padding: 2px;
+    
     margin-left: 7px;
 }
 
@@ -33,12 +39,29 @@
     border: none;
 }
 
+.btn {
+  font-weight: bold;
+  white-space: nowrap;
+  
+}
+
 .owner-btn {
-  background: linear-gradient($lightGold, $darkGold);
+  background: linear-gradient(0.25turn, $lightGold, $darkGold);
 }
 
 .sign-in-btn {
     background: $teal;
+}
+
+@media (max-width: 1090px) {
+
+  #navbarCollapse {
+    justify-content: flex-end;
+  }
+
+  input {
+    width: 10em;
+  }
 }
 
 

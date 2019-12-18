@@ -3,6 +3,10 @@
     border-bottom: 1px solid gold;
     padding: .4em 2em;
 
+    .navbar-nav {
+        flex-direction: row;
+    }
+
    .nav-item {
        margin: auto;
    }
@@ -17,4 +21,10 @@
        color: gold;
        cursor: pointer;
    }
+}
+
+@media (max-height: 708px) {
+    .navbar a {
+        white-space: nowrap;
+    }
 }
